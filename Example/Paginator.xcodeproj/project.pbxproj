@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300D4EC01F9A74FF005AD0AF /* AFLimitOffsetConfigurationProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D4EBF1F9A74FF005AD0AF /* AFLimitOffsetConfigurationProviderTests.m */; };
+		300D4EC31F9A7FBA005AD0AF /* AFPageNumberAndSizeConfigurationProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D4EC21F9A7FBA005AD0AF /* AFPageNumberAndSizeConfigurationProviderTests.m */; };
+		305F86E81F97C77200914CCE /* AFFromToConfigurationProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 305F86E71F97C77200914CCE /* AFFromToConfigurationProviderTests.m */; };
+		30A6642A1FB6EF3900506B11 /* AFHTTPRequestConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A664281FB6EF3900506B11 /* AFHTTPRequestConfiguration.m */; };
+		30ABB51E1F9E6C2D0014B932 /* AFJSONHTTPRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ABB51C1F9E6C2C0014B932 /* AFJSONHTTPRequestHandler.m */; };
+		30ABB5201F9FB8D30014B932 /* AFPaginatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ABB51F1F9FB8D30014B932 /* AFPaginatorTests.m */; };
 		3B4421661F155DF569B3E7AA /* Pods_Paginator_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C116ED21A0E4B2F458AE026 /* Pods_Paginator_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -20,7 +26,6 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		FC8F66C67A32E3B3CDC2271B /* Pods_Paginator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652500CF261CE8EFF86900E8 /* Pods_Paginator_Tests.framework */; };
@@ -38,7 +43,16 @@
 
 /* Begin PBXFileReference section */
 		2C116ED21A0E4B2F458AE026 /* Pods_Paginator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paginator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		560FA5F611B09AF7A8AE9989 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		300D4EBF1F9A74FF005AD0AF /* AFLimitOffsetConfigurationProviderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFLimitOffsetConfigurationProviderTests.m; sourceTree = "<group>"; };
+		300D4EC11F9A759C005AD0AF /* GlobalTestConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalTestConstants.h; sourceTree = "<group>"; };
+		300D4EC21F9A7FBA005AD0AF /* AFPageNumberAndSizeConfigurationProviderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPageNumberAndSizeConfigurationProviderTests.m; sourceTree = "<group>"; };
+		305F86E71F97C77200914CCE /* AFFromToConfigurationProviderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFFromToConfigurationProviderTests.m; sourceTree = "<group>"; };
+		30A664281FB6EF3900506B11 /* AFHTTPRequestConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestConfiguration.m; sourceTree = "<group>"; };
+		30A664291FB6EF3900506B11 /* AFHTTPRequestConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestConfiguration.h; sourceTree = "<group>"; };
+		30ABB51C1F9E6C2C0014B932 /* AFJSONHTTPRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONHTTPRequestHandler.m; sourceTree = "<group>"; };
+		30ABB51D1F9E6C2D0014B932 /* AFJSONHTTPRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONHTTPRequestHandler.h; sourceTree = "<group>"; };
+		30ABB51F1F9FB8D30014B932 /* AFPaginatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPaginatorTests.m; sourceTree = "<group>"; };
+		560FA5F611B09AF7A8AE9989 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Paginator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paginator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,16 +70,15 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		652500CF261CE8EFF86900E8 /* Pods_Paginator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paginator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69225085673F659F23C16B23 /* Paginator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Paginator.podspec; path = ../Paginator.podspec; sourceTree = "<group>"; };
+		69225085673F659F23C16B23 /* Paginator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Paginator.podspec; path = ../Paginator.podspec; sourceTree = "<group>"; };
 		6C147F922F6A450A62386958 /* Pods-Paginator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paginator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paginator_Tests/Pods-Paginator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72F8319FFAB2AAD660763122 /* Pods-Paginator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paginator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Paginator_Example/Pods-Paginator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93A19F3391B6EED84DBF3188 /* Pods-Paginator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paginator_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paginator_Example/Pods-Paginator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AD9F35457C84D81CA3F54518 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AD9F35457C84D81CA3F54518 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B4D908637835F5EFFD9317B6 /* Pods-Paginator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paginator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Paginator_Tests/Pods-Paginator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +145,10 @@
 		6003F593195388D20070C39A /* Example for Paginator */ = {
 			isa = PBXGroup;
 			children = (
+				30A664291FB6EF3900506B11 /* AFHTTPRequestConfiguration.h */,
+				30A664281FB6EF3900506B11 /* AFHTTPRequestConfiguration.m */,
+				30ABB51D1F9E6C2D0014B932 /* AFJSONHTTPRequestHandler.h */,
+				30ABB51C1F9E6C2C0014B932 /* AFJSONHTTPRequestHandler.m */,
 				6003F59C195388D20070C39A /* AFAppDelegate.h */,
 				6003F59D195388D20070C39A /* AFAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -159,8 +176,12 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
+				30ABB51F1F9FB8D30014B932 /* AFPaginatorTests.m */,
+				300D4EC21F9A7FBA005AD0AF /* AFPageNumberAndSizeConfigurationProviderTests.m */,
+				300D4EBF1F9A74FF005AD0AF /* AFLimitOffsetConfigurationProviderTests.m */,
+				305F86E71F97C77200914CCE /* AFFromToConfigurationProviderTests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				300D4EC11F9A759C005AD0AF /* GlobalTestConstants.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -247,7 +268,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AF;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Anton Filimonov";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -369,9 +390,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Paginator_Tests/Pods-Paginator_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -404,6 +428,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* AFAppDelegate.m in Sources */,
+				30ABB51E1F9E6C2D0014B932 /* AFJSONHTTPRequestHandler.m in Sources */,
+				30A6642A1FB6EF3900506B11 /* AFHTTPRequestConfiguration.m in Sources */,
 				6003F5A7195388D20070C39A /* AFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -413,7 +439,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				30ABB5201F9FB8D30014B932 /* AFPaginatorTests.m in Sources */,
+				300D4EC31F9A7FBA005AD0AF /* AFPageNumberAndSizeConfigurationProviderTests.m in Sources */,
+				305F86E81F97C77200914CCE /* AFFromToConfigurationProviderTests.m in Sources */,
+				300D4EC01F9A74FF005AD0AF /* AFLimitOffsetConfigurationProviderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,19 +492,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -488,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -503,25 +543,36 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -564,7 +615,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(SDKROOT)/System/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
