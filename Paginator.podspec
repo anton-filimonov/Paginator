@@ -38,10 +38,4 @@ This library performs operations that are common for loading lists of data divid
     cps.source_files = 'Paginator/Classes/PagingParametersProviders/*.{h,m}'
     cps.dependency 'Paginator/Core'
   end
-
-# s.source_files = 'Paginator/Classes/**/*'
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

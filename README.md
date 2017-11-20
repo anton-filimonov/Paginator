@@ -61,7 +61,7 @@ So when you ask paginator to download next page, it
 
 ## Usage
 
-To use paginator you first need to configure it like this:
+To use paginator you first need to configure it like this (this looks pretty long but it really depends on the server you work with):
 ```Objective-C
 // Create paging provider
 AFPageNumberAndSizePagingParametersProvider *pagingProvider = [[AFPageNumberAndSizePagingParametersProvider alloc] initWithStartIndex:1];
@@ -143,6 +143,8 @@ dataLoader.delegate = self
 
 //then just save paginator object somewhere
 ```
+
+Then just implement needed methods in your delegate and call `loadPageInDirection:` to start loading.
 
 For full example of how to use it, see Example.
 
