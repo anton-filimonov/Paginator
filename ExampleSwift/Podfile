@@ -3,4 +3,5 @@ use_frameworks!
 
 target 'Paginator-ExampleSwift' do
   pod 'Paginator', :path => '../'
+  pod 'Paginator/ParametersProviders', :path => '../'
 end

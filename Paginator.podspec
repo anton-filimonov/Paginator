@@ -28,7 +28,7 @@ This library performs operations that are common for loading lists of data divid
   s.social_media_url = 'https://twitter.com/AntonFilimon'
 
   s.ios.deployment_target = '8.0'
-  s.default_subspecs = 'Core', 'ParametersProviders'
+  s.default_subspec = 'Core'
 
   s.subspec 'Core' do |cs|
     cs.source_files = 'Paginator/Classes/*.{h,m}'
