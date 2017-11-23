@@ -57,8 +57,6 @@ So when you ask paginator to download next page, it
 5. Tells Paging Parameters Provider that page is loaded to let it update it's internal state to get ready for next loads
 6. Provide its' delegate with loaded data
 
-//TBD: Generate documentation and add it to the project wiki
-
 ## Usage
 
 To use paginator you first need to configure it like this (this looks pretty long but it really depends on the server you work with):
