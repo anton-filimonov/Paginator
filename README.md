@@ -148,7 +148,7 @@ For full example of how to use it, see Example.
 
 ## Author
 
-Anton Filimonov, anton.s.filimonov@gmail.com
+[Anton Filimonov](https://github.com/anton-filimonov)
 
 ## License
 
