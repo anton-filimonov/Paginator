@@ -11,7 +11,7 @@ It is a small library that simplifies your work with services allowing you to lo
 To run the example project, clone the repo, and run `pod install` from the Example directory first. The same way you can run the swift example project in ExampleSwift directory.
 
 ## Requirements
-It should work properly with older versions but has been tested on iOS 9 and higher in Xcode 9.1. As of iOS version, it's been tested on iOS 8.4 and higher
+It should work properly with older versions but has been tested on iOS 8.4 and higher in Xcode 9.1.
 
 ## Installation
 
@@ -43,11 +43,11 @@ Very often we have to download data divided into chunks. Sometimes we also need 
 
 Its main components are:
 
-* Paginator itself - the main entry point. Connecting all other parts together. Holds loading state (whether download is in progress for any direction or not)
-* Paging Parameters Provider - part of paginators' state which moved to separate class to provide more flexibility. It provider parameters for next page in selected direction. The parameters depend on the server you have to deal with. The most basically used parameters providers (for servers, using from-to, limit-offset or pageNumber-pageSize coordinate systems for data chunks) could be installed as `Paginator/ParametersProviders` pod or from `Classes/PagingParametersProviders` directory if you prefer to install manually.
-* Request Configuration Builder we use different frameworks and libraries to perform network requests but all of them use some configuration to describe the request (`NSURLRequest` for example). PagingParametersProvider gives only a dictionary with parameters for needed page, but you also could need to add some other parameters, headers and you can use whatever classes to describe the request. And Request Configuration Builder is the right place to put your request decription constructor.
-* Data Preprocessing Block - this block will be used to process the received data before returning it to the delegate. It's going to be usefull if your server returns needed data wrapped into some dictionary or if you want to receive the result mapped into your internal data classes or if you need to perform any data transformations to receive the array of data, you need
-* Request Handler - performs request (usually network request, but actually that depends only on your handler)
+* `Paginator` itself - the main entry point. Connecting all other parts together. Holds loading state (whether download is in progress for any direction or not)
+* `Paging Parameters Provider` - part of paginators' state which moved to separate class to provide more flexibility. It provider parameters for next page in selected direction. The parameters depend on the server you have to deal with. The most basically used parameters providers (for servers, using from-to, limit-offset or pageNumber-pageSize coordinate systems for data chunks) could be installed as `Paginator/ParametersProviders` pod or from `Classes/PagingParametersProviders` directory if you prefer to install manually.
+* `Request Configuration Builder` we use different frameworks and libraries to perform network requests but all of them use some configuration to describe the request (`NSURLRequest` for example). PagingParametersProvider gives only a dictionary with parameters for needed page, but you also could need to add some other parameters, headers and you can use whatever classes to describe the request. And Request Configuration Builder is the right place to put your request decription constructor.
+* `Data Preprocessing Block` - this block will be used to process the received data before returning it to the delegate. It's going to be usefull if your server returns needed data wrapped into some dictionary or if you want to receive the result mapped into your internal data classes or if you need to perform any data transformations to receive the array of data, you need
+* `Request Handler` - performs request (usually network request, but actually that depends only on your handler). The library does not provide this component but only a protocol defining requirements to it, because concrete implementation could highly depend on app architecture and needs.
 
 So when you ask paginator to download next page, it
 1. Asks parameters for the page from Paging Parameters Provider
