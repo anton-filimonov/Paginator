@@ -24,7 +24,7 @@ This library performs operations that are common for loading lists of data divid
   s.homepage         = 'https://github.com/anton-filimonov/Paginator'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Anton Filimonov' => 'anton.s.filimonov@gmail.com' }
-  s.source           = { :git => 'https://github.com/Anton Filimonov/Paginator.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/anton-filimonov/Paginator.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/AntonFilimon'
 
   s.ios.deployment_target = '8.0'
