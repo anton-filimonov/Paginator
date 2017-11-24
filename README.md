@@ -1,8 +1,8 @@
 # Paginator
 
-[![Version](https://img.shields.io/cocoapods/v/Paginator.svg?style=flat)](http://cocoapods.org/pods/Paginator)
-[![License](https://img.shields.io/cocoapods/l/Paginator.svg?style=flat)](http://cocoapods.org/pods/Paginator)
-[![Platform](https://img.shields.io/cocoapods/p/Paginator.svg?style=flat)](http://cocoapods.org/pods/Paginator)
+[![Version](https://img.shields.io/cocoapods/v/Paginator.svg?style=flat)](http://cocoapods.org/pods/AFPaginator)
+[![License](https://img.shields.io/cocoapods/l/Paginator.svg?style=flat)](http://cocoapods.org/pods/AFPaginator)
+[![Platform](https://img.shields.io/cocoapods/p/Paginator.svg?style=flat)](http://cocoapods.org/pods/AFPaginator)
 
 It is a small library that simplifies your work with services allowing you to load data in chunks defined by some parameters. It takes the most common responsibilities of paged data loading: preventing many requests for the same page, keeping track of loaded data range, providing next/previous page parameters.
 
