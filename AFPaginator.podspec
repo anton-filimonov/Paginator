@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint Paginator.podspec' to ensure this is a
+# Be sure to run `pod lib lint AFPaginator.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Paginator'
+  s.name             = 'AFPaginator'
   s.version          = '1.0.0'
-  s.summary          = 'The library that helps when you have to load list of data divided into pages'
+  s.summary          = 'The library that helps to manage paginated sources'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

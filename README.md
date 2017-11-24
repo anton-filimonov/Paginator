@@ -13,6 +13,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 It should work properly with older versions but has been tested on iOS 8.4 and higher in Xcode 9.1.
 
+## Features
+ * Swift ready (all classes and method names adopted to Swift)
+ * 100% tested
+ * High flexibility. Customize the process, providing your own implementations of all the dependencies
+ * Fully documented
+ * CocoaPods installable
+
 ## Installation
 
 ### CocoaPods
