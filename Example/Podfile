@@ -2,8 +2,8 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'Paginator_Example' do
-  pod 'Paginator', :path => '../'
-  pod 'Paginator/ParametersProviders', :path => '../'
+  pod 'AFPaginator', :path => '../'
+  pod 'AFPaginator/ParametersProviders', :path => '../'
 
   target 'Paginator_Tests' do
     inherit! :search_paths
