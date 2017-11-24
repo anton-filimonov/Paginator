@@ -36,6 +36,6 @@ This library performs operations that are common for loading lists of data divid
 
   s.subspec 'ParametersProviders' do |cps|
     cps.source_files = 'Paginator/Classes/PagingParametersProviders/*.{h,m}'
-    cps.dependency 'Paginator/Core'
+    cps.dependency 'AFPaginator/Core'
   end
 end
