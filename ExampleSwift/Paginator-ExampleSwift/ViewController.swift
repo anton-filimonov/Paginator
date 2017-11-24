@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Paginator
+import AFPaginator
 
 class ViewController: UIViewController, PaginatorDelegate, UITableViewDelegate, UITableViewDataSource {
     

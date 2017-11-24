@@ -6,7 +6,7 @@
 //  Copyright (c) 2017 Anton Filimonov. All rights reserved.
 //
 
-@import Paginator;
+@import AFPaginator;
 
 #import "AFViewController.h"
 #import "AFJSONHTTPRequestHandler.h"

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Paginator
+import AFPaginator
 
 class JSONHTTPRequestHandler: DataRequestHandler {
     

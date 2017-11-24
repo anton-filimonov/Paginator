@@ -5,7 +5,7 @@
 //  Copyright © 2016 Anton Filimonov. All rights reserved.
 //
 
-@import Paginator;
+@import AFPaginator;
 
 #import <Foundation/Foundation.h>
 

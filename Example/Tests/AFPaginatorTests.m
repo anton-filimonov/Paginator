@@ -6,7 +6,7 @@
 //  Copyright © 2017 Anton Filimonov. All rights reserved.
 //
 
-@import Paginator;
+@import AFPaginator;
 
 #import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>
