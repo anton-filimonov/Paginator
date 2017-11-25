@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFPaginator'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'The library that helps to manage paginated sources'
 
 # This description is used to generate tags and improve search results.
@@ -28,6 +28,10 @@ This library performs operations that are common for loading lists of data divid
   s.social_media_url = 'https://twitter.com/AntonFilimon'
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.9'
+  s.watchos.deployment_target = '2.0'
+  s.tvos.deployment_target = '9.0'
+
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |cs|
