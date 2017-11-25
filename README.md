@@ -19,6 +19,7 @@ It should work properly with older versions but has been tested on iOS 8.4 and h
  * High flexibility. Customize the process, providing your own implementations of all the dependencies
  * Fully documented
  * CocoaPods installable
+ * Modular. You can use only the core object and dependency types or you can also load default configuration providers if they fit your API
 
 ## Installation
 
