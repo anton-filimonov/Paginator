@@ -2,8 +2,7 @@
 //  AFLimitOffsetConfigurationProviderTests.m
 //  Paginator_Tests
 //
-//  Created by Антон Филимонов on 20/10/2017.
-//  Copyright © 2017 Anton Filimonov. All rights reserved.
+//  Created by Anton Filimonov on 20/10/2017.
 //
 
 @import AFPaginator;

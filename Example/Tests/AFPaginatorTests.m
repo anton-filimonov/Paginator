@@ -2,8 +2,7 @@
 //  AFPaginatorTests.m
 //  Paginator_Tests
 //
-//  Created by Антон Филимонов on 24/10/2017.
-//  Copyright © 2017 Anton Filimonov. All rights reserved.
+//  Created by Anton Filimonov on 24/10/2017.
 //
 
 @import AFPaginator;

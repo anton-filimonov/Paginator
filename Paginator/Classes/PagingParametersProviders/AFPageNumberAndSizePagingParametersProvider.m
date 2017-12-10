@@ -2,7 +2,6 @@
 //  AFPageNumberAndSizePagingConfigurationProvider.m
 //
 //  Created by Anton Filimonov on 26.09.16.
-//  Copyright © 2016 Anton Filimonov. All rights reserved.
 //
 
 #import "AFPageNumberAndSizePagingParametersProvider.h"

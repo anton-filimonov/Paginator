@@ -2,7 +2,6 @@
 //  AFBasePagingConfigurationProvider.m
 //
 //  Created by Anton Filimonov on 25.09.16.
-//  Copyright © 2016 Anton Filimonov. All rights reserved.
 //
 
 #import "AFBasePagingParametersProvider.h"

@@ -2,8 +2,7 @@
 //  AFFromToConfigurationProviderTests.m
 //  Paginator_Tests
 //
-//  Created by Антон Филимонов on 18/10/2017.
-//  Copyright © 2017 Anton Filimonov. All rights reserved.
+//  Created by Anton Filimonov on 18/10/2017.
 //
 
 @import AFPaginator;
